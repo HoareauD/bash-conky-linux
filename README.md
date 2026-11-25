@@ -23,7 +23,7 @@ Dans un nouveau terminal Bash, lance `ls` ou `ll` pour voir les en-têtes, les i
 Le prompt affiche la machine et le chemin en couleur sur la première ligne. La branche apparaît dans un dépôt Git. La commande se tape sur la deuxième ligne.
 
 ```text
-╭─ didier@fedora  ~/Projets/mon-depot  [git:main]
+╭─ utilisateur@machine  ~/Projets/mon-depot  [git:main]
 ╰─❯
 ```
 
