@@ -1,4 +1,4 @@
-# Bash et Conky sous Linux
+# Bash et Conky pour Linux
 
 - **Bash** affiche les icônes et le statut Git dans `ls` et `ll`. **Ctrl+R** ouvre la recherche dans l’historique. Le prompt est en couleur et affiche la branche Git dans un dépôt.
 - **Conky** affiche le processeur, la mémoire, les disques et le réseau sur chaque écran détecté.
@@ -8,8 +8,8 @@
 Fonctionne avec les familles Fedora, Red Hat et Debian, dont Ubuntu. Depuis ton terminal Bash, avec ton compte utilisateur :
 
 ```bash
-git clone https://github.com/HoareauD/scripts-fedora.git
-cd scripts-fedora
+git clone https://github.com/HoareauD/bash-conky-linux.git
+cd bash-conky-linux
 ./installer-terminal-fedora.sh
 ```
 
@@ -25,7 +25,7 @@ Installe les paquets correspondant à ta distribution.
 - **Debian / Ubuntu** — `sudo apt update && sudo apt install conky-all x11-xserver-utils wmctrl iproute2 fonts-dejavu-core`
 - **RHEL et dérivés** — `sudo dnf install /usr/bin/xrandr iproute dejavu-sans-fonts`, active [EPEL](https://docs.fedoraproject.org/en-US/epel/getting-started/), puis installe `wmctrl` et `conky` s’ils sont disponibles pour ta version. Sinon, place un exécutable Conky compatible X11 dans `~/.local/bin/conky`. [Installation de Conky](https://github.com/brndnmtthws/conky#install--run)
 
-Depuis le dossier `scripts-fedora`, copie la configuration. Sauvegarde d’abord tes fichiers Conky si tu en as déjà.
+Depuis le dossier `bash-conky-linux`, copie la configuration. Sauvegarde d’abord tes fichiers Conky si tu en as déjà.
 
 ```bash
 install -d ~/.config/conky ~/.config/autostart
